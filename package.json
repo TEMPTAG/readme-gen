@@ -1,0 +1,41 @@
+{
+  "name": "readme-gen",
+  "version": "1.0.0",
+  "description": "professional-readme-generator",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TEMPTAG/readme-gen"
+  },
+  "bugs": {
+    "url": "https://github.com/TEMPTAG/readme-gen/issues",
+    "email": "iansterlingferguson@gmail.com"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "nodejs",
+    "javascript"
+  ],
+  "author": {
+    "name": "Ian Ferguson",
+    "email": "iansterlingferguson@gmail.com",
+    "url": "https://github.com/TEMPTAG"
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "node index.js",
+    "test": ""
+  },
+  "dependencies": {
+    "inquirer": "^10.1.2"
+  }
+}
