@@ -108,12 +108,8 @@ const questions = [
     // Text input
     type: "input",
     name: "description",
-    message: "Provide a short description of your project:",
-  },
-  {
-    type: "input",
-    name: "descriptionTwo",
-    message: "What was your motivation for this project?",
+    message:
+      "Provide a short description of your project - What was your motivation? Why did you build it? What problem does it solve? What did you learn?",
   },
   {
     // Installation
