@@ -1,11 +1,11 @@
-# README Generator of DOOOOOOOM
+# README Generator - Life Saver
 
   ---
 
   ![License](https://img.shields.io/badge/License-MIT%20License-blue.svg)
 
   ## Description
-  Let HAL9000 do the heavy lifting. 
+  Save time, get back to petting dogs.
 
   ## Table of Contents
 
@@ -16,16 +16,16 @@
   - [Questions](#questions)
 
   ## Installation
-  Google Fu it, I'm not here to be your servant.  
+  At your own risk.
 
   ## Usage
-  Want to get back to gaming faster?  node index that ish.
+  Follow prompts.  Type things.  Hit Enter a few times.
 
   ## Contributing
-  Have your people call my people... or my dog.  He's cool.
+  Please do, I want to work less so I can pet more dogs.
 
   ## Tests
-  None. . BCZ awesome.
+  None. I just make and break things.
 
   ---
 
@@ -38,8 +38,9 @@
   ---
 
   ## License
-  
-  This project is under the MIT License.  The details of the MIT License can be found [here](https://opensource.org/licenses/MIT).
+
+This project is under the MIT License. The details of the MIT License can be found [here](https://opensource.org/licenses/MIT).
+
 
   _Copyright (c) 2024 Ian Ferguson_
   
