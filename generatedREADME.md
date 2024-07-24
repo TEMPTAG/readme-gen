@@ -1,11 +1,11 @@
-# README Generator
+# README.md Generator
 
   ---
 
-  ![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)
+  ![License](https://img.shields.io/badge/License-MIT%20License-blue.svg)
 
   ## Description
-  Make life easier for our projects
+  Make life easier.
 
   ## Table of Contents
 
@@ -16,22 +16,22 @@
   - [Questions](#questions)
 
   ## Installation
-  node index.js
+  CLONERUNPARTYTYPEENTER
 
   ## Usage
-  Just do it
+  Everywhere, always.
 
   ## Contributing
-  Have your people call my people
+  Have your people email my people.
 
   ## Tests
-  None. I'm goodest.
+  N/A
 
   ---
 
   ## Questions
 
-  Have questions about this project? Want to collaborate? Eager to discuss conspiracy theories or debate why your favorite car is not as cool as you think? [Email Me](mailto:ianasterlingferguson@gmail.com) — just do not call, because I probably will not answer...
+  Have questions about this project? Want to collaborate? Eager to discuss conspiracy theories or debate why your favorite car is not as cool as you think? [Email Me](mailto:iansterlingferguson@gmail.com) — just do not call, because I probably will not answer...
   
   Did this project make your life better in any way, shape, or form?  Check out my other exceptionally rare moments of lucidity on my [GitHub Profile](https://github.com/TEMPTAG)
 

@@ -5,7 +5,10 @@ function renderLicenseBadge(license) {
     return "";
   }
   // If there is a license, return the license badge
-  return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  return `![License](https://img.shields.io/badge/License-${license.replace(
+    / /g,
+    "%20"
+  )}-blue.svg)`;
 }
 
 // TODO: Create a function that returns the license link
