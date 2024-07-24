@@ -132,6 +132,7 @@ const questions = [
       "Apache License 2.0",
       "GNU General Public License v3 (GPLv3)",
       "BSD 3-Clause New or Revised License",
+      "None",
     ],
   },
   {
