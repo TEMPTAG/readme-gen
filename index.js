@@ -101,7 +101,7 @@ const questions = [
     // Text input
     type: "input",
     name: "title",
-    message: "What is the title of your project?",
+    message: "What is the title of the project or application?",
   },
   {
     // Description
@@ -109,14 +109,14 @@ const questions = [
     type: "input",
     name: "description",
     message:
-      "Provide a short description of your project - What was your motivation? Why did you build it? What problem does it solve? What did you learn?",
+      "Provide a short description of the project - What was your motivation? Why did you build it? What problem does it solve? What did you learn?",
   },
   {
     // Installation
     // Text input
     type: "input",
     name: "installation",
-    message: "Notes for installing your project?",
+    message: "Notes for installing the project:",
   },
   {
     // License
@@ -125,7 +125,7 @@ const questions = [
     // Notice is added to the license section explaining which license the application is covered under
     type: "list",
     name: "license",
-    message: "What license do you want to use?",
+    message: "Which license would you like to use?",
     choices: [
       "MIT License",
       "GNU General Public License v2 (GPLv2)",
@@ -139,21 +139,21 @@ const questions = [
     // Text input
     type: "input",
     name: "usage",
-    message: "What is the usage of your project?",
+    message: "Provide instructions and examples for use:",
   },
   {
     // Contributing
     // Text input
     type: "input",
     name: "contributing",
-    message: "How can others contribute to your project?",
+    message: "How can others contribute to the project?",
   },
   {
     // Tests
     // Text input
     type: "input",
     name: "tests",
-    message: "What tests have you run on your project?",
+    message: "What tests have been run on the project?",
   },
   {
     // Questions
@@ -177,7 +177,9 @@ function writeToFile(fileName, data) {
     if (err) {
       console.error(err);
     } else {
-      console.log("Thank you, your README.md file has been generated!");
+      console.log(
+        "Thank you, your generatedREADME.md file has been created! Check your root directory for the file."
+      );
     }
   });
 }
@@ -188,7 +190,7 @@ function init() {
     .prompt(questions)
     .then((answers) => {
       const readmeData = generateMarkdown(answers);
-      writeToFile("README.md", readmeData);
+      writeToFile("generatedREADME.md", readmeData);
     })
     .catch((err) => {
       console.error(err);

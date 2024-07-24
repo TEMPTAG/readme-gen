@@ -1,5 +1,4 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   // If there is no license, return an empty string
   if (license === "None") {
@@ -21,6 +20,10 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ---
+
+  ${renderLicenseBadge(data.license)}
+
   ## Description
   ${data.description}
 
@@ -28,7 +31,6 @@ function generateMarkdown(data) {
 
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
@@ -39,19 +41,29 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## License
-  ${data.license}
-
   ## Contributing
   ${data.contributing}
 
   ## Tests
   ${data.tests}
 
-  ## Questions
-  ${data.github}
-  ${data.email}
+  ---
 
+  ## Questions
+
+  Have questions about this project? Want to collaborate? Eager to discuss conspiracy theories or debate why your favorite car is not as cool as you think? [Email Me](mailto:${
+    data.email
+  }) — just do not call, because I probably will not answer...
+  
+  Did this project make your life better in any way, shape, or form?  Check out my other exceptionally rare moments of lucidity on my [GitHub Profile](https://github.com/${
+    data.github
+  })
+
+  ---
+
+  ## License
+  ${data.license}
+  
 `;
 }
 
