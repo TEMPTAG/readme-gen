@@ -1,46 +1,49 @@
-# README Generator - Life Saver
+# ReadMe Generator
 
-  ---
+---
 
-  ![License](https://img.shields.io/badge/License-MIT%20License-blue.svg)
+![License](https://img.shields.io/badge/License-MIT%20License-blue.svg)
 
-  ## Description
-  Save time, get back to petting dogs.
+## Description
 
-  ## Table of Contents
+Generate a basic professional ReadMe from Command Line prompts to create the outline of a ReadMe for any and all projects quickly and efficiently.
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
+## Table of Contents
 
-  ## Installation
-  At your own risk.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-  ## Usage
-  Follow prompts.  Type things.  Hit Enter a few times.
+## Installation
 
-  ## Contributing
-  Please do, I want to work less so I can pet more dogs.
+Clone, code . , install things, node index
 
-  ## Tests
-  None. I just make and break things.
+## Usage
 
-  ---
+Rock it out.
 
-  ## Questions
+## Contributing
 
-  Have questions about this project? Want to collaborate? Eager to discuss conspiracy theories or debate why your favorite car is not as cool as you think? [Email Me](mailto:iansterlingferguson@gmail.com) — just do not call, because I probably will not answer...
-  
-  Did this project make your life better in any way, shape, or form?  Check out my other exceptionally rare moments of lucidity on my [GitHub Profile](https://github.com/TEMPTAG)
+Contact me via the links in the "Questions" section below.
 
-  ---
+## Tests
 
-  ## License
+None at this time.
+
+---
+
+## Questions
+
+Have questions about this project? Want to collaborate? Eager to discuss conspiracy theories or debate why your favorite car is not as cool as you think? [Email Me](mailto:iansterlingferguson@gmail.com) — just do not call, because I probably will not answer...
+
+Did this project make your life better in any way, shape, or form? Check out my other exceptionally rare moments of lucidity on my [GitHub Profile](https://github.com/TEMPTAG)
+
+---
+
+## License
 
 This project is under the MIT License. The details of the MIT License can be found [here](https://opensource.org/licenses/MIT).
 
-
-  _Copyright (c) 2024 Ian Ferguson_
-  
+_Copyright (c) 2024 Ian Ferguson_

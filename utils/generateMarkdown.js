@@ -40,14 +40,16 @@ function renderLicenseSection(license) {
   // If there is a license, return the license section
   return `## License
 
-This project is under the ${license}. The details of the ${license} can be found [here](${renderLicenseLink(
+  This project is covered under the ${license}. The details of the ${license} can be found on their site [HERE](${renderLicenseLink(
     license
-  )}).
+  )}).  You can also see the full details of the [LICENSE](./LICENSE) for this specific project in the linked file.
 `;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  const currentYear = new Date().getFullYear();
+
   return `# ${data.title}
 
   ---
@@ -83,7 +85,7 @@ function generateMarkdown(data) {
 
   Have questions about this project? Want to collaborate? Eager to discuss conspiracy theories or debate why your favorite car is not as cool as you think? [Email Me](mailto:${
     data.email
-  }) — just do not call, because I probably will not answer...
+  }) — just do not call, because I probably will not answer.
   
   Did this project make your life better in any way, shape, or form?  Check out my other exceptionally rare moments of lucidity on my [GitHub Profile](https://github.com/${
     data.github
@@ -93,7 +95,7 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  _Copyright (c) 2024 Ian Ferguson_
+  _Copyright © ${currentYear} ${data.name}_
   
 `;
 }
