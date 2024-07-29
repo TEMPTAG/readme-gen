@@ -1,12 +1,12 @@
-# readme-generator
+# Readme Generator
 
   ---
 
-  ![License](https://img.shields.io/badge/License-MIT%20License-blue.svg)
+  ![License](https://img.shields.io/badge/License-GNU%20General%20Public%20License%20v2%20(GPLv2)-blue.svg)
 
   ## Description
 
-  Make life easier for us students to make readmes.
+  Professional ReadMe Generator
 
   ## Table of Contents
 
@@ -18,19 +18,19 @@
 
   ## Installation
 
-  Clone...
+  Clone, run in termal, etc.
 
   ## Usage
 
-  Node index.js in command line
+  Run in terminal via node index.js
 
   ## Contributing
 
-  Email me
+  Email me.
 
   ## Tests
 
-  None at this time
+  N/A
 
   ---
 
@@ -44,7 +44,7 @@
 
   ## License
 
-  This project is covered under the MIT License. The details of the MIT License can be found on their site [HERE](https://opensource.org/licenses/MIT).  You can also see the full details of the [LICENSE](./LICENSE) for this specific project in the linked file.
+  This project is covered under the GNU General Public License v2 (GPLv2). The details of the GNU General Public License v2 (GPLv2) can be found on their site [HERE](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).  You can also see the full details of the [LICENSE](./LICENSE) for this specific project in the linked file.
 
 
   _Copyright © 2024 Ian Ferguson_

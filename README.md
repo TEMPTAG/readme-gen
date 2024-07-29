@@ -8,11 +8,11 @@
 
 Do you work your fingers to the bone just to get the project/application done/tested/released, then realize you need to make a comprehensive README file and see it as a huge chore? Then, like the amazingly well-meaning human you are, put it on the ever-growing "ToDo LiSt" that future you can deal with - only to have future you never check off that todo.
 
+![Screenshot of Application Sample](/assets/images/ReadMeGenerator.jpg)
+
 Hi, I am Ian Ferguson, and welcome to my world - I mean, project. I know I said "you" a lot in that paragraph, but "you" is me. I am "you." This was the motivation for the project. Looking at all my repos and cool projects with an empty README file or just a sad outline of a README file with no content. I love creating, but READMEs always feel like busy-work, and busy-work is the grim reaper of my creativity. This application takes away the basic formatting tasks and allows me to just fill-in the blanks with helpful information, and communication to you - yes, actually you this time. I love communicating, but I hate the formalities of formatting that communication in an acceptable format for you to read.
 
 So, check out this rad animated .gif showing the functionality of this command-line application putting in the work that all of us seem to avoid, as we all - especially me - continually avoid the grim reapers of creativity...
-
-_Rad animated .gif coming soon..._
 
 ## Table of Contents
 
