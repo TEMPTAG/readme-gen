@@ -55,7 +55,7 @@ npm install
 
 ## Usage
 
-**Once you have installed the project, you can run the command-line application in your terminal and generate your own README file!**
+**Once you have installed the project and dependencies, you can run the command-line application in your terminal and generate your own README file!**
 
 1. Navigate into to the `readme-gen` project directory:
 

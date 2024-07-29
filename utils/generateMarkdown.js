@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
-  // If there is no license, return an empty string
+  // If there is no license, return an empty string (no badge will be created)
   if (!license || license === "None") {
     return "";
   }
@@ -13,8 +13,8 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 function renderLicenseLink(license) {
+  // If there is no license, return an empty string (no link will be created)
   if (!license || license === "None") {
-    // If there is no license, return an empty string
     return "";
   }
   // If there is a license, return the license link - top 5 licenses used on GitHub:
@@ -33,8 +33,8 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 function renderLicenseSection(license) {
+  // If there is no license, return an empty string (no license section will be created)
   if (!license || license === "None") {
-    // If there is no license, return an empty string
     return "";
   }
   // If there is a license, return the license section
@@ -47,6 +47,8 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+// Get the current year to add to the copyright at the bottom of the README
+// Return the README content with the data from the user answers, build the data to be inserted into the README file
 function generateMarkdown(data) {
   const currentYear = new Date().getFullYear();
 
@@ -57,6 +59,7 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
 
   ## Description
+
   ${data.description}
 
   ## Table of Contents
@@ -68,15 +71,19 @@ function generateMarkdown(data) {
   - [Questions](#questions)
 
   ## Installation
+
   ${data.installation}
 
   ## Usage
+
   ${data.usage}
 
   ## Contributing
+
   ${data.contributing}
 
   ## Tests
+
   ${data.tests}
 
   ---
@@ -97,7 +104,7 @@ function generateMarkdown(data) {
 
   _Copyright © ${currentYear} ${data.name}_
   
-`;
+  `;
 }
-
+// Export the generateMarkdown function to be used in index.js
 export default generateMarkdown;
