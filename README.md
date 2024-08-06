@@ -1,3 +1,5 @@
+## <a name="top"></a>
+
 # README.md Generator
 
 ---
@@ -22,6 +24,7 @@ So, check out this rad animated .gif showing the functionality of this command-l
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+- [License](#license)
 
 ---
 
@@ -118,4 +121,11 @@ Did this project make your life better in any way, shape, or form? Check out my 
 
 This project is covered under the MIT License. The details of the MIT License can be found on their site [HERE](https://opensource.org/licenses/MIT). You can also see the full details of the [LICENSE](./LICENSE) for this specific project in the linked file.
 
-_Copyright © 2024 Ian Ferguson - powered by caffine, love, and a little bit of fun_
+---
+
+<div align="center">
+<em>Copyright © 2024 Ian Ferguson - powered by caffine, love, and a little bit of fun</em>
+
+[Back to top](#top)
+
+</div>

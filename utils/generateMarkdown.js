@@ -52,7 +52,8 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   const currentYear = new Date().getFullYear();
 
-  return `# ${data.title}
+  return `## <a name="top"></a>
+  # ${data.title}
 
   ---
 
@@ -102,7 +103,12 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
 
-  _Copyright © ${currentYear} ${data.name}_
+  <div align="center">
+  <em>Copyright © ${currentYear} ${
+    data.name
+  } - powered by caffine, love, and a little bit of fun</em>
+  [Back to top](#top)
+  </div>
   
   `;
 }
